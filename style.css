@@ -122,8 +122,10 @@ header {
 
 /*Labels*/
 .discount-label {
-    padding: 4px 10px;
+    padding: 6px 12px;
     background-color: red;
+    font-size: smaller;
+    font-weight: 600;
     color: white;
     position: absolute;
     bottom: 15%;
@@ -132,13 +134,28 @@ header {
 }
 
 .sostenibilità {
-    padding: 4px 10px;
+    padding: 6px 12px;
     background-color: green;
+    font-size: smaller;
+    font-weight: 600;
     color: white;
     position: absolute;
     bottom: 15%;
     left: 0;
-    z-index: 100;
+    z-index: 150;
+}
+
+.discount-sostenibilità {
+    margin-left: 60px;
+    padding: 6px 12px;
+    background-color: green;
+    font-size: smaller;
+    font-weight: 600;
+    color: white;
+    position: absolute;
+    bottom: 15%;
+    left: 0;
+    z-index: 150;
 }
 
 /*Others*/
