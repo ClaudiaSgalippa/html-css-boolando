@@ -117,7 +117,6 @@ header {
 
 .card:hover .change {
     display: block;
-
 }
 
 /*Labels*/
@@ -168,6 +167,25 @@ header {
     background-color: white;
     z-index: 150;
 
+}
+
+/*Bonus*/
+
+.cuore-rosso {
+    color: red;
+}
+
+.preferiti .cuore-rosso {
+    position: absolute;
+    z-index: 100;
+    top: auto;
+    left: auto;
+    display: none;
+    transform: translate(0%, -100%);
+}
+
+.preferiti:hover .cuore-rosso {
+    display: block;
 }
 
 /*Others*/
