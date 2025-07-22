@@ -15,7 +15,7 @@ header {
 
 #leaderboard {
     display: flex;
-    width: 80%;
+    width: 75%;
     margin: auto;
     height: 40px;
     text-align: center;
@@ -62,3 +62,33 @@ ul {
     align-items: center;
 }
 
+/*Body*/
+
+#container {
+    width: 80%;
+    margin: auto;
+    padding: 40px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.col {
+    width: calc((100% / 3) - (20px / 3));
+    flex-shrink: 0;
+    background-color: blueviolet;
+    min-height: 150px;
+}
+
+.card {
+    position: relative;
+    text-align: center;
+    cursor: pointer;
+}
+
+.card img {
+    max-width: 100%;
+}
