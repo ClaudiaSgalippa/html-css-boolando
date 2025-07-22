@@ -101,33 +101,21 @@ header {
 /*Footer*/
 
 footer {
-    height: 500px;
+    height: 120px;
     background-color: #1a1a1a;
     display: flex;
     color: white;
-    border-style: dashed;
 }
 
 #bottomboard {
     display: flex;
     width: 75%;
     margin: auto;
-    border-style: dashed;
 }
 
 #srl {
-    width: 50%;
+    width: 89%;
     color: white;
-}
-
-#bottom-icons {
-    display: flex;
-    width: 50%;
-    margin: auto;
-    height: 30px;
-    color: white;
-    justify-content: flex-end;
-    border-style: dashed;
 }
 
 #boolando-srl {
@@ -138,5 +126,8 @@ footer {
 }
 
 #find-us {
-
+    display: flex;
+    font-size: x-large;
+    gap: 10px;
+    padding-top: 10px;
 }
