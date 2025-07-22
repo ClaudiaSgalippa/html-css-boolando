@@ -5,6 +5,12 @@
     font-family: 'Whitney', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
+/*Utility*/
+
+ul {
+    list-style-type: none;
+}
+
 /*Header*/
 
 header {
@@ -55,8 +61,7 @@ header {
     justify-content: flex-end;
 }
 
-ul {
-    list-style-type: none;
+#da-flexare {
     display: flex;
     gap: 8px;
     align-items: center;
@@ -91,4 +96,47 @@ ul {
 
 .card img {
     max-width: 100%;
+}
+
+/*Footer*/
+
+footer {
+    height: 500px;
+    background-color: #1a1a1a;
+    display: flex;
+    color: white;
+    border-style: dashed;
+}
+
+#bottomboard {
+    display: flex;
+    width: 75%;
+    margin: auto;
+    border-style: dashed;
+}
+
+#srl {
+    width: 50%;
+    color: white;
+}
+
+#bottom-icons {
+    display: flex;
+    width: 50%;
+    margin: auto;
+    height: 30px;
+    color: white;
+    justify-content: flex-end;
+    border-style: dashed;
+}
+
+#boolando-srl {
+    display: flex;
+    font-size: small;
+    gap: 10px;
+    padding-top: 10px;
+}
+
+#find-us {
+
 }
