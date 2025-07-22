@@ -2,4 +2,63 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Whitney', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
+
+/*Header*/
+
+header {
+    height: 70px;
+    background-color: #FE6900;
+    display: flex;
+}
+
+#leaderboard {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    height: 40px;
+    text-align: center;
+    align-self: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#gender {
+    display: flex;
+    width: 20%;
+    margin: auto;
+    color: white;
+    font-weight: 600;
+}
+
+#logo {
+    display: flex;
+    width: 60%;
+    margin: auto;
+    height: 30px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+#boolean {
+    height: 40px;
+}
+
+#header-icons {
+    display: flex;
+    width: 20%;
+    margin: auto;
+    height: 30px;
+    color: white;
+    justify-content: flex-end;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
