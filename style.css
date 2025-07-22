@@ -98,6 +98,16 @@ header {
     max-width: 100%;
 }
 
+.discount-label {
+    padding: 4px 10px;
+    background-color: red;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    bottom: 15%;
+    left: 0;
+}
+
 /*Footer*/
 
 footer {
@@ -131,3 +141,4 @@ footer {
     gap: 10px;
     padding-top: 10px;
 }
+
