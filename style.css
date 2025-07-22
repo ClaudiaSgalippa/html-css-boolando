@@ -158,6 +158,18 @@ header {
     z-index: 150;
 }
 
+.card .preferiti {
+    font-size: 40px;
+    position: absolute;
+    top: 5%;
+    left: 94%;
+    width: 50px;
+    transform: translate(-49%, -50%);
+    background-color: white;
+    z-index: 150;
+
+}
+
 /*Others*/
 
 #info-box {
