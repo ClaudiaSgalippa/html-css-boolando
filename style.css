@@ -11,12 +11,19 @@ ul {
     list-style-type: none;
 }
 
-/*Header*/
+.sticky-header{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
 
+/*Header*/
 header {
     height: 70px;
     background-color: #FE6900;
     display: flex;
+    position: sticky;
+    top: 0;
 }
 
 #leaderboard {
@@ -68,7 +75,6 @@ header {
 }
 
 /*Body*/
-
 #container {
     width: 80%;
     margin: auto;
@@ -98,10 +104,32 @@ header {
     max-width: 100%;
 }
 
+.card .after {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: none;
+    /* ricentratura di se stesso */
+    transform: translate(-50%, -50%);
+}
+
+.card:hover .after {
+    display: block;
+}
+
+/*Labels*/
 .discount-label {
     padding: 4px 10px;
     background-color: red;
-    font-weight: bold;
+    color: white;
+    position: absolute;
+    bottom: 15%;
+    left: 0;
+}
+
+.sostenibilità {
+    padding: 4px 10px;
+    background-color: green;
     color: white;
     position: absolute;
     bottom: 15%;
@@ -109,7 +137,6 @@ header {
 }
 
 /*Footer*/
-
 footer {
     height: 120px;
     background-color: #1a1a1a;
@@ -141,4 +168,3 @@ footer {
     gap: 10px;
     padding-top: 10px;
 }
-
